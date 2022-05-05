@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Heebo', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+    background: #fff;
+}
+
+h2 {
+    font-size: 5rem;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    margin-left: 5rem;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    font-size: 1.5rem;
+    color: black;
+    transform: translate(-50%, -50%) scale(6);
+}
+
+.first-page {
+    height: 100vh;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 5rem 10rem;
+}
+
+.intro {
+    padding-right: 10rem;
+    padding-left: 10rem;
+}
+
+.home {
+    height: 100vh;
+}
+
+.first-page img {
+    height: 100%;
+}
